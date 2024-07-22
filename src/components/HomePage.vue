@@ -1,6 +1,6 @@
 <script>
-import { ref } from 'vue'
-import Dinosaurs from './Dinosaurs.vue'
+import { ref } from 'vue';
+import Dinosaurs from './Dinosaurs.vue';
 export default {
   components: {
     Dinosaurs

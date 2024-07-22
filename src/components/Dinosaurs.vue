@@ -1,9 +1,9 @@
 <script>
-import { ref } from 'vue'
-import { store } from '../store.js'
-export default ({
+import { ref } from 'vue';
+import { store } from '../store.js';
+export default {
   async setup() {
-    const res = await fetch("http://localhost:8080/api")
+    const res = await fetch("http://localhost:8080/api");
     const dinosaurs = await res.json();
     return {
       dinosaurs
@@ -14,7 +14,7 @@ export default ({
       store
     }
   }
-})
+}
 </script>
 
 <template>
